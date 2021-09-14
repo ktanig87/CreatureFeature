@@ -1,0 +1,123 @@
+.wrapper{
+    margin: 50px;
+}
+.mug{
+    width: 200px;
+    height: 175px;
+    border: solid 2px lightgrey;
+    background-color: lightblue;
+    border-radius: 15px 15px 50px 50px;
+}
+
+.coffee{
+    width: 180px;
+    height: 40px;
+    border-radius: 30px 30px 50px 50px;
+    z-index: 1;
+    margin-top: 8px;
+    position: relative;
+    left: 10px;
+    background-color: tan;
+
+}
+.lefteye{
+    width: 30px;
+    height: 30px;
+    border: solid 1px lightgray;
+    border-radius: 15px;
+    z-index: 1;
+    position: relative;
+    left: 32px;
+    top: 26px;
+    background-color: white;
+
+}
+.righteye{
+    width: 30px;
+    height: 30px;
+    border: solid 1px lightgray;
+    border-radius: 15px;
+    z-index: 1;
+    position: relative;
+    left: 95px;
+    top: -3px;
+    background-color: white;
+
+}
+
+.handle{
+    width: 50px;
+    height: 60px;
+    border: solid 1px lightgray;
+    border-radius: 15px;
+    z-index: -1;
+    position: relative;
+    left: 150px;
+    top: -60px;
+    background-color: white;
+    border: 20px solid lightblue;
+    border-radius: 30px 50px 30px 0px;
+    transform: rotate(45deg);
+
+}
+.pupil{
+    width: 15px;
+    height: 15px;
+    border: solid 1px gray;
+    border-radius: 8px;
+    z-index: 1;
+    position: relative;
+    /* left: 30px; */
+    /* top: 0px; */
+    background-color: grey;
+
+}
+.smile{
+    width: 75px;
+    height: 30px;
+    border: solid 1px lightgray;
+    border-radius: 0 0 30px 30px;
+    margin: 5px;
+    position: relative;
+    top: -5em;
+    left: 2em;
+    background-color: salmon;
+    z-index: 0;
+}
+.rightfang{
+    width: 0;
+    height: 0;
+    border-left:  6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 12px solid whitesmoke;
+    /* margin: 16px; */
+    position: relative;
+    top: 0px;
+    left: 45px;   
+
+}
+.leftfang{
+    width: 0;
+    height: 0;
+    border-left:  6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 12px solid whitesmoke;
+    /* margin: 16px; */
+    position: relative;
+    top: -12px;
+    left: 15px;   
+
+}
+/*
+.handle{
+    width: 50px;
+    height: 60px;
+    z-index: -1;
+    position: relative;
+    left: 150px;
+    border: 20px solid lightblue;
+    border-radius: 30px 50px 30px 0px;
+    transform: rotate(45deg);
+
+}
+ */
